@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <script>
+    function showPage1() {
+      item = document.getElementById("Page1")
+      item.style.display = "block"
+      item = document.getElementById("Page2")
+      item.style.display = "none"
+      item = document.getElementById("Page3")
+      item.style.display = "none"
+    }
+    function showPage2() {
+      item = document.getElementById("Page1")
+      item.style.display = "none"
+      item = document.getElementById("Page2")
+      item.style.display = "block"
+      item = document.getElementById("Page3")
+      item.style.display = "none"
+    }
+    function showPage3() {
+      item = document.getElementById("Page1")
+      item.style.display = "none"
+      item = document.getElementById("Page2")
+      item.style.display = "none"
+      item = document.getElementById("Page3")
+      item.style.display = "block"
+    }
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>みそらのポートフォリオ</h1>
+  </header>
+  <nav>
+    <ul>
+      <li onclick="showPage1()"><button>java script</button></li>
+      <li onclick="showPage2()"><button>MOS Excel</button></li>
+      <li onclick="showPage3()"><button>WEBデザイン</button></li>
+    </ul>
+  </nav>
+  <section id="Page1">
+    <h1>javascript</h1>
+    <p>
+      プログラムでπの計算をしたり、三角形を回転させたりしました。
+    </p>
+    <p><a href="">ぼくがつくったもの</a></p>
+  </section>
+  <section id="Page2">
+    <h1>MOS Excel</h1>
+    <p>
+      MOSをした
+    </p>
+    <p><a href="">ぼくがつくったもの</a></p>
+  </section>
+  <section id="Page3">
+    <h1>WEBデザイン</h1>
+    <p>
+      WEBデザインをHTMLとCSSを使って学びました。
+      以下に作った作品のリンクを貼り付けます。
+    </p>
+    <p><a href="0128/index.html">ぼくがつくったもの</a></p>
+  </section>
+  <footer>
+
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header,section,nav,footer{
+    display: block;
+}
+body{
+    background-color: cyan;
+}
+header{
+    height: 60px;
+    width: 1000px;
+    background-color: aquamarine;
+}
+nav{
+    float: left;
+    width: 200px;
+    background-color: aqua;
+}
+section{
+    float: left;
+    width: 795px;
+    background-color: aquamarine;
+}
+footer{
+    clear: both;
+    width:1000px;
+    background-color: aqua;
+}
+#Page1{
+    display:block; 
+}
+#Page2{
+    display: none;
+}
+#Page3{
+    display: none;
+}
