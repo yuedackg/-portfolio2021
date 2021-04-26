@@ -1,0 +1,48 @@
+body{
+    width: 470px;
+    margin: 0px auto;
+}
+
+h1{
+    height: 100px;
+    background-image: url(../images/logo@2x.png);
+    background-repeat: no-repeat;
+    background-size: 325px;
+    background-position: center;
+}
+#pc_nav{
+    height: 26px;
+    background-color: #31f1a1;
+    color: #fff;
+    font-size: 13px;
+    padding: 13px 0px 0px 60px;
+}
+.slides img{
+    width: 470px;
+}
+#visual{
+    
+}
+h1#new{
+    height: 80px;
+    background-image: url(../images/h1_new.png);
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: 0px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+h1#comp{
+    height: 80px;
+    background-image: url(../images/h1_company.png);
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: 0px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+}
+.new{
+    font-size: 14px;
+    line-height: 20px;
+}
