@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script>
+      function showpage1(){
+        item=document.getElementById("page1")
+        item.style.display="none"
+        item=document.getElementById("page2")
+        item.style.display="block"
+      }
+      function showpage2(){
+        item=document.getElementById("page1")
+        item.style.display="none"
+        item=document.getElementById("page2")
+        item.style.display="block"
+      }
+      function showpage3(){
+        item=document.getElementById("page1")
+        item.style.display="none"
+        item=document.getElementById("page2")
+        item.style.display="block"
+      }
+    </script>
+   <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <hl>工藤のポートフォリオ</hl>
+    </header>
+    <nav>
+      <ul>
+        <li onclick="showpage1()">WEBデザイン</li>
+        <li onclick="showpage2()">RPA</li>
+      </ul>
+    </nav>
+    <section id="page1">
+      <h1>WEBデザインの制作物に関するリンク</h1>
+      <p>WEB上のデザインをHTMLとCSSで表現しました。</p>
+      <p><a href="20210304/index.html">制作物へのリンク</a></p>
+    </section> 
+        <li onclick="showpage3()">MOS Excel</li>
+      </ul>
+    </nav>
+    <section id="page2">
+      <h1>WEBデザイン</h1>
+      <p>
+        WEB上のデザインをHTMLとCSSを使って学びました。
+        以下に作った作品のリンクを貼りつけます（参照ください。）
+      </p>
+      <p><a href="">制作物のリンク</a></p>
+    </section>
+    <section id="page3"> 
+      <li>鉄道の時刻表</li>
+    </section>
+    <footer></footer>
+  </body>
+</html>
