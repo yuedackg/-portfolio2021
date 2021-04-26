@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script>
+      function ShowWeb(){
+        item=document.getElementById("pageExcel")
+        item.style.display="none"
+        item=document.getElementById("pageWeb")
+        item.style.display="block"
+      }
+      function showExcel(){
+        item=document.getElementById("pageWeb")
+        item.style.display="none"
+        item=document.getElementById("pageExcel")
+        item.style.display="block"
+      }
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>青木未歩のポートフォリオ</h1>
+    </header>
+    <nav>
+      <ul>
+        <li onclick="ShoWweb()">Webデザイン</li>
+        <li onclick="ShowExcel()">MOS Excel</li>
+      </ul>
+    </nav>
+    <section id="pageWeb">
+      <h1>Webデザイン</h1>
+      <p>Web上のデザインをHTMLとCSSを使って学びました。
+        以下に作品のリンクを貼り付けます。ご参照ください。</p>
+        <p><a href="カフェ/カフェ.html">制作物のリンク</a></p>
+    </section>
+    <section id="pageExcel">
+      <h1>MOS Excel</h1>
+      <p>Excelで関数を使って計算をして表を作りました。
+        以下に作品のリンクを貼り付けます。ご参照ください。</p>
+        <p><a href="">制作物のリンク</a></p>
+    </section>
+    <footer>
+
+    </footer>
+  </body>
+</html>

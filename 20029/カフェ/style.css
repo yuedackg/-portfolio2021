@@ -1,0 +1,28 @@
+body{
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: 960px;
+    width: 100%;
+    margin: 0px auto;
+}
+header{
+    display: flex;
+    background-color: #ffffff40;
+    color: #000;
+    height: 88px;
+    width: 960px;
+}
+header h1{
+    margin: 18px 0px 0px 8px;
+    font-size: 50px;
+}
+nav ul{
+    display: flex;
+    margin: 37px 0px 0px 150px;
+    padding-left: 100px;
+}
+nav li{
+    list-style: none;
+    margin-right: 60px;
+    border-bottom: solid 1px;
+}

@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header,nav,section,footer{
+    display: block;
+}
+body{
+    background-color: lightcyan;
+}
+header{
+    height: 60px;
+    width: 1000px;
+    background-color: lightgreen;
+}
+nav{
+    float: left;
+    width: 200px;
+}
+section{
+    float: left;
+    width: 800px;
+    background-color: lightskyblue;
+}
+footer{
+    clear: both;
+    width: 1000px;
+    background-color: lightskyblue;
+}
+#page2{
+    display: none;
+}

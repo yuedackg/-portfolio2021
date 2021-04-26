@@ -1,0 +1,39 @@
+@keyframes wide-scale{
+    0%{width: 100px;}
+    100%{width: 1000px;}
+}
+.example-1{
+    height: 30px;
+    background-color: #a52a2a;
+    animation-name: wide-scale;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+.example-2{
+    height: 30px;
+    background-color: #65b1f8;
+    animation-name: wide-scale;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+.example-3{
+    height: 30px;
+    background-color: #2aa57c;
+    animation-name: wide-scale;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+.example-4{
+    height: 30px;
+    background-color: #782aa5;
+    animation-name: wide-scale;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+}
+.example-5{
+    height: 30px;
+    background-color: #a5a32a;
+    animation-name: wide-scale;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
