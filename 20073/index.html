@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script>
+            function showPage2(){
+                item=document.getElementById("page1")
+                item.style.display="none"
+                item=document.getElementById("page2")
+                item.style.display="block"
+            }
+            function showPage1(){
+                item=document.getElementById("page1")
+                item.style.display="block"
+                item=document.getElementById("page2")
+                item.style.display="none"
+                }
+
+        </script>
+       <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>坂本ポートフォリオ</h1>
+        </header>
+        <nav>
+            <ul>
+                <li onclick="showPage1()">WEBデザイン</li>
+                <li onclick="showPage2()">MOS Excel</li>
+            </ul>
+        </nav>
+        <section id="page1">
+            <h1>WEBデザイン</h1>
+            <p>
+                WEB上のデザインをHTMLとCSSを使って学びました。
+                以下に作った作品のリンクを参照下さい
+            </p>      
+            <p><a href="0114/index.html">制作物のリンク</a></p> 
+        </section>
+        <section id="page2">
+            <h1>MOS Excel</h1>
+            <p>
+                表計算や関数、グラフなどの各分野をExcelを使って学びました。
+                以下に作った作品のリンクを参照下さい
+            </p>
+            <p><a href="MOS-Excel2016(2)/20073  0305  坂本司.pdf">制作物のリンク</a></p>
+        </section>
+        <footer></footer>
+    <body>
+</html> 

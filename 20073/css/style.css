@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header,section,nav,footer{
+    display: block;
+}
+body{
+    background-color: yellowgreen;
+}
+header{
+    width: 1000px;
+    height: 60px;
+    background-color: cadetblue;
+}
+nav{
+    float: left;
+    width:200px;
+    background-color: aqua;
+}
+section{
+    float: left;
+    widows: 795px;
+    background-color: green;
+}
+footer{
+    width: 1000px;
+    background-color: red;
+    clear: both;
+}
+#page2{
+    display: none;
+}
